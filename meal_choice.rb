@@ -2,3 +2,7 @@
 # passed into it and defaults to meat.
 
 require 'pry'
+
+def meal_choice(choice = "meat")
+  choice
+end
